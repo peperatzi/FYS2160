@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.19)  11 NOV 2017 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.19)  11 NOV 2017 17:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1039,60 +1039,52 @@ File: project_1/problem_e.png Graphic file (type png)
 Package pdftex.def Info: project_1/problem_e.png used on input line 155.
 (pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
  [3 <./project_1/problem_e.png>]
-
-LaTeX Warning: Reference `eq:dimlessPress_vol' on page 4 undefined on input lin
-e 182.
-
-<project_1/problem_h.png, id=57, 578.16pt x 433.62pt>
+<project_1/problem_h.png, id=58, 578.16pt x 433.62pt>
 File: project_1/problem_h.png Graphic file (type png)
 
 <use project_1/problem_h.png>
 Package pdftex.def Info: project_1/problem_h.png used on input line 198.
 (pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
  [4]
-<project_1/problem_i.png, id=69, 578.16pt x 433.62pt>
+<project_1/problem_i.png, id=70, 578.16pt x 433.62pt>
 File: project_1/problem_i.png Graphic file (type png)
 
 <use project_1/problem_i.png>
 Package pdftex.def Info: project_1/problem_i.png used on input line 212.
 (pdftex.def)             Requested size: 289.07999pt x 216.80946pt.
- [5 <./project_1/problem_h.png>]
-
-LaTeX Warning: Reference `eq:dV' on page 6 undefined on input line 244.
-
-
-LaTeX Warning: Reference `eq:ds' on page 6 undefined on input line 244.
-
-[6 <./project_1/problem_i.png>]
+ [5 <./project_1/problem_h.png>] [6 <./project_1/problem_i.png>]
 Overfull \hbox (18.44759pt too wide) detected at line 260
 []\OML/cmm/m/it/10 dS \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 dT \OMS/cmsy/m/n/10
  , [][] \OT1/cmr/m/n/10 = [][] + [][] [][]
  []
 
-
-LaTeX Warning: Reference `eq:dV' on page 7 undefined on input line 283.
-
-
-LaTeX Warning: Reference `eq:almost' on page 7 undefined on input line 304.
-
-
-LaTeX Warning: Reference `eq:heatCap' on page 7 undefined on input line 313.
-
-[7]
-
-LaTeX Warning: Reference `eq:cp/cv' on page 8 undefined on input line 341.
-
-[8]
-
-LaTeX Warning: Reference `eq:firstLaw' on page 9 undefined on input line 386.
-
-<project_2/problem_d.png, id=122, 578.16pt x 433.62pt>
+[7] [8] <project_2/problem_d.png, id=130, 578.16pt x 433.62pt>
 File: project_2/problem_d.png Graphic file (type png)
 
 <use project_2/problem_d.png>
-Package pdftex.def Info: project_2/problem_d.png used on input line 403.
+Package pdftex.def Info: project_2/problem_d.png used on input line 404.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [9 <./project_2/problem_d.png>] [10]
+ [9 <./project_2/problem_d.png>]
+<project_2/problem_f.png, id=145, 578.16pt x 433.62pt>
+File: project_2/problem_f.png Graphic file (type png)
+
+<use project_2/problem_f.png>
+Package pdftex.def Info: project_2/problem_f.png used on input line 442.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [10]
+<project_2/problem_g.png, id=159, 578.16pt x 433.62pt>
+File: project_2/problem_g.png Graphic file (type png)
+
+<use project_2/problem_g.png>
+Package pdftex.def Info: project_2/problem_g.png used on input line 455.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [11 <./project_2/problem_f.png>] [12pdfTeX warning (ext4): destination with th
+e same identifier (name{table.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.481 \subsection
+                 *{i.} <./project_2/problem_g.png>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1104,33 +1096,38 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [11])
-(./project_1/problem_e.py) (./project_1/problem_h.py) (./project_1/problem_i.py
-[12]) (./project_2/problem_d.py [13]) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
- (./oblig3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+)
+(./project_1/problem_e.py [13]) (./project_1/problem_h.py)
+(./project_1/problem_i.py [14]) (./project_2/problem_d.py)
+(./project_2/problem_f.py [15]) (./project_2/problem_g.py [16])pdfTeX warning (
+ext4): destination with the same identifier (name{code_problem_h}) has been alr
+eady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.539 \hypertarget{code_problem_h}{}
+                                     (./project_2/problem_h.py [17]) [18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 559.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 559.
+
+(./oblig3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 559.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 559.
 Package rerunfilecheck Info: File `oblig3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 559.
  ) 
 Here is how much of TeX's memory you used:
- 19234 strings out of 494374
- 346970 string characters out of 6164953
- 546812 words of memory out of 5000000
- 21986 multiletter control sequences out of 15000+600000
+ 19411 strings out of 494374
+ 349601 string characters out of 6164953
+ 562812 words of memory out of 5000000
+ 22015 multiletter control sequences out of 15000+600000
  11671 words of font info for 46 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 55i,13n,54p,487b,2010s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,54p,487b,1893s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1147,11 +1144,11 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on oblig3.pdf (14 pages, 420844 bytes).
+type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on oblig3.pdf (18 pages, 513367 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 376 compressed objects within 4 object streams
- 227 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 559 compressed objects within 6 object streams
+ 367 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

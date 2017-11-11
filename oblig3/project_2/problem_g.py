@@ -19,26 +19,18 @@ slope, intercept, r_value, p_value, std_err = stats.linregress(dT,dQ)
 
 dT_cont = np.linspace(np.min(dT),np.max(dT),1000)
 
+rhos = [0.01,0.2,0.4,0.6,0.8]
+rho_names = ["001","02","04","06","08"]
+C_Vs = []
+uncertainties = []
 
-##############
-# Oppgave f) #
-##############
-
-Ts = [1,0.694,2,6,10,13]
-T_names = ["0694","2","6","10","13"]
-C_Vs = [slope]
-uncertainties = [std_err]
-
-for t,name in zip(Ts[1:],T_names):
-
-    slope,std_err = find_CV("problem_d_lammbs_%s.dat" %name)
-    
+for r,name in zip(rhos,rho_names):
+    slope,std_err = find_CV("problem_d_lammbs_rho_%s.dat" %name)
     C_Vs.append(slope)
     uncertainties.append(std_err)
 
-plt.errorbar(Ts,C_Vs,uncertainties,fmt=".-.")
-plt.title(r"Heat Capacity as Temperature increases. ($\rho = 0.01$)")
-plt.xlabel("Temperature $T$")
-plt.ylabel("Heat capacity $C_V$")
+plt.errorbar(rhos,C_Vs,uncertainties,fmt=".-.")
+plt.title(r"Heat Capacity as $\rho$ increases. (T=2)")
+plt.xlabel(r"$\rho$")
+plt.ylabel(r"$C_V$")
 plt.show()
-
